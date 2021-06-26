@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb37438c-6990-43d4-9943-5924a85c04a2" name="Default Changelist" comment="" />
+    <list default="true" id="fb37438c-6990-43d4-9943-5924a85c04a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../EurekaDiscovery/PhotoAppDiscovery (1)/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppZuulAPIGateway/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/PhotoAppUsersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/PhotoAppUsersApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/security/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhotoAppUsers/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhotoAppUsers/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/target/classes/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,19 +28,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/data/userEntity.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/PhotoAppUsersApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/pom.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/shared/UserDto.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/services/UserServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/services/UserService.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/data/userRepository.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/controllers/UserController.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/pom.xml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/PhotoAppUsersApplication.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/data/userEntity.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/services/UserService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/services/UserServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.4.7/spring-boot-dependencies-2.4.7.pom" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1uG65SzfUCoZzGuBY60rDgLwa0L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,7 +52,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Gateways/PhotoAppZuulAPIGateway" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -75,5 +90,17 @@
       <updated>1624279395349</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

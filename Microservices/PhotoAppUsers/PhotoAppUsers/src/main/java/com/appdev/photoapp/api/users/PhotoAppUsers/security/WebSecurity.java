@@ -2,6 +2,7 @@ package com.appdev.photoapp.api.users.PhotoAppUsers.security;
 
 
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
@@ -10,10 +11,13 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 public class WebSecurity extends WebSecurityConfigurerAdapter {
 
     @Override
-    protected  void config(HttpSecurity http) throws Exception
+    protected  void configure(HttpSecurity http) throws Exception
     {
         http.csrf().disable();
-        http.authorizeRequests().antMatchers("/users/**").permitALl();
+        http.authorizeRequests()
+                .antMatchers("/users/**")
+                .permitAll();
+                http.headers().frameOptions().disable();
     }
 
 }
