@@ -1,8 +1,6 @@
 package com.appdev.photoapp.api.users.PhotoAppUsers.controllers;
 
-
 import com.appdev.photoapp.api.users.PhotoAppUsers.models.createUserRequestModel;
-
 import com.appdev.photoapp.api.users.PhotoAppUsers.models.createUserResponseModel;
 import com.appdev.photoapp.api.users.PhotoAppUsers.services.UserService;
 import com.appdev.photoapp.api.users.PhotoAppUsers.shared.UserDto;
