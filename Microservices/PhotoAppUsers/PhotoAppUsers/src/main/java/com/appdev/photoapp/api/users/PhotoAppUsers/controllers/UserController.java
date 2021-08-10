@@ -1,5 +1,6 @@
 package com.appdev.photoapp.api.users.PhotoAppUsers.controllers;
 
+import com.appdev.photoapp.api.users.PhotoAppUsers.models.UserResponseModel;
 import com.appdev.photoapp.api.users.PhotoAppUsers.models.createUserRequestModel;
 import com.appdev.photoapp.api.users.PhotoAppUsers.models.createUserResponseModel;
 import com.appdev.photoapp.api.users.PhotoAppUsers.services.UserService;
@@ -9,11 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 import javax.validation.Valid;
 
@@ -25,11 +23,13 @@ public class UserController {
     @Autowired
     UserService userService;
     @Autowired
+    private RestTemplate restTemplate;
+    @Autowired
      private Environment env;
     @GetMapping("/status/check")
     public String status()
     {
-     return "Working on port "+env.getProperty("local.server.port");
+     return "Working on port "+env.getProperty("local.server.port") +"   "+ env.getProperty("token.secret");
     }
     
     @PostMapping
@@ -42,5 +42,24 @@ public class UserController {
 
         createUserResponseModel returnValue=modelMapper.map(createdUser,createUserResponseModel.class);
         return new ResponseEntity(returnValue,HttpStatus.CREATED);
+    }
+
+
+    /*public ResponseEntity<UserResponseModel> getUser(@PathVariable("userId") String userId)
+    {
+       UserDto userDto=userService.getUserDetailsByUserId(userId);
+       UserResponseModel returnValue=new ModelMapper().map(userDto,UserResponseModel.class);
+
+       return ResponseEntity.status(HttpStatus.OK).body(returnValue);
+    }*/
+    @GetMapping("/{userId}")
+    public  ResponseEntity<UserResponseModel> getUser(@PathVariable("userId") String userId)
+    {
+
+        UserDto userDto = userService.getUserDetailsByUserId(userId);
+        UserResponseModel returnValue = new ModelMapper().map(userDto, UserResponseModel.class);
+
+        return ResponseEntity.status(HttpStatus.OK).body(returnValue);
+
     }
 }

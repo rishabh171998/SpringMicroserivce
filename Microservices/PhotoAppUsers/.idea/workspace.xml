@@ -5,36 +5,378 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb37438c-6990-43d4-9943-5924a85c04a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/models/LoginRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/security/AuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/PhotoConfigServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__com_jcraft_jsch_0_1_55.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__com_rabbitmq_http_client_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__io_micrometer_micrometer_core_1_6_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__net_jodah_typetools_0_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_5_1_3_201810200350_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_5_1_3_201810200350_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_bus_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_context_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_core_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bus_amqp_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_stream_rabbit_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_core_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_integration_spring_integration_amqp_5_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_5_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_5_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_spring_messaging_5_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__io_micrometer_micrometer_core_1_6_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_4_8_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_4_8_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_4_8_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bootstrap_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/PhotoAppSpringCloudGateway/src/main/java/com/appdev/photoapp/api/gateway/PhotoAppSpringCloudGateway/AuthorizationHeaderFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/PhotoAppSpringCloudGateway/src/main/java/com/appdev/photoapp/api/gateway/PhotoAppSpringCloudGateway/GlobalFiltersConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/PhotoAppSpringCloudGateway/src/main/java/com/appdev/photoapp/api/gateway/PhotoAppSpringCloudGateway/PostFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/PhotoAppSpringCloudGateway/src/main/java/com/appdev/photoapp/api/gateway/PhotoAppSpringCloudGateway/PreFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_rabbitmq_http_client_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__io_micrometer_micrometer_core_1_6_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__net_jodah_typetools_0_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__net_minidev_accessors_smart_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__net_minidev_json_smart_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_bus_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_context_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_core_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bootstrap_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bus_amqp_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_stream_rabbit_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_core_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_integration_spring_integration_amqp_5_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_5_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_5_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_spring_beans_5_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_spring_expression_5_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_spring_messaging_5_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_spring_test_5_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_spring_tx_5_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_spring_web_5_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/PhotoAppApiAlbums.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/models/AlbumResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EurekaDiscovery/PhotoAppDiscovery (1)/PhotoAppDiscovery/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../EurekaDiscovery/PhotoAppDiscovery (1)/PhotoAppDiscovery/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_4_4_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_4_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_0_8_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_0_8_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_7_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__io_projectreactor_reactor_test_3_4_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__io_projectreactor_reactor_test_3_4_7_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_8_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_8_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_8_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_8_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_8_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_8_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_4_8_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_4_8_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_8_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_8_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_8_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_8_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_4_8_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_4_8_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_8_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_8_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_4_8_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_4_8_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_4_8_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_4_8_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_8_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_8_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_8_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_8_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/PhotoAppSpringCloudGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/PhotoAppSpringCloudGateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/PhotoAppSpringCloudGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/PhotoAppSpringCloudGateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Gateways/PhotoAppZuulAPIGateway/PhotoAppZuulAPIGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppZuulAPIGateway/PhotoAppZuulAPIGateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_google_code_gson_gson_2_8_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_10_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_10_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_10_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_10_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_stoyanr_evictor_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_stoyanr_evictor_1_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_x_stream_mxparser_1_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__io_github_x_stream_mxparser_1_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Gateways/PhotoAppSpringCloudGateway/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_4_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__joda_time_joda_time_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__net_minidev_accessors_smart_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__net_minidev_json_smart_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_48.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_48.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_atteo_evo_inflector_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_68.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_68.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_68.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_68.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_32_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_7_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_7_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_modelmapper_modelmapper_2_4_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_modelmapper_modelmapper_2_4_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_31.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_31.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_3_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_3_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_3_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_3_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_3_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_3_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_3_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_1_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_4_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_4_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_4_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_4_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_spring_aop_5_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_spring_context_5_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_spring_beans_5_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_spring_context_5_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_spring_core_5_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_spring_expression_5_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_spring_core_5_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__org_springframework_spring_aop_5_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_spring_test_5_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_spring_tx_5_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_spring_web_5_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Config/PhotoConfigServer/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAppApiAlbums/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppUsers/PhotoAppUsers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/PhotoAppUsers.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppUsers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/PhotoAppUsersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/PhotoAppUsersApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/data/userEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/data/userEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/data/userRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/data/userRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/security/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/security/AuthenticationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/security/WebSecurity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/services/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/shared/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/shared/UserDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppUsers/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppUsers/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/PhotoAppUsersApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/PhotoAppUsersApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/data/userEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/data/userEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/data/userRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/data/userRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/models/createUserRequestModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/models/createUserRequestModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/models/createUserResponseModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/models/createUserResponseModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/services/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/services/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/services/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/shared/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/target/classes/com/appdev/photoapp/api/users/PhotoAppUsers/shared/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotoAppUsers/target/test-classes/com/appdev/photoapp/api/users/PhotoAppUsers/PhotoAppUsersApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppUsers/target/test-classes/com/appdev/photoapp/api/users/PhotoAppUsers/PhotoAppUsersApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,16 +390,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/data/userEntity.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/PhotoAppUsersApplication.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/pom.xml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/shared/UserDto.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/data/userRepository.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/controllers/UserController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/data/userEntity.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/services/UserService.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/services/UserServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.4.7/spring-boot-dependencies-2.4.7.pom" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/PhotoAppUsersApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/controllers/UserController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PhotoAppUsers/src/main/java/com/appdev/photoapp/api/users/PhotoAppUsers/shared/UserDto.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1uG65SzfUCoZzGuBY60rDgLwa0L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -69,7 +411,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PhotoAppApiAlbums" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -121,13 +463,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.web.client.RestTemplate" memberName="messageConverters" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PhotoAppUsers$PhotoAppUsersApplication.ic" NAME="PhotoAppUsersApplication Coverage Results" MODIFIED="1627758604978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.appdev.photoapp.api.users.PhotoAppUsers.*</FILTER>
+    </SUITE>
   </component>
 </project>
