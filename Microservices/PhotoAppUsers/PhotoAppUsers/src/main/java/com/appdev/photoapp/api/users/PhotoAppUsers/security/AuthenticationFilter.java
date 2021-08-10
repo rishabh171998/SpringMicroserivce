@@ -6,7 +6,6 @@ import com.appdev.photoapp.api.users.PhotoAppUsers.shared.UserDto;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -63,7 +62,7 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
         String token= Jwts.builder()
                 .setSubject(userDetails.getUserId())
                 .setExpiration(new Date(System.currentTimeMillis()+Long.parseLong(String.valueOf(324243224))))
-                .signWith(SignatureAlgorithm.HS512,"3e53tg4t324twe").compact();
+                .signWith(SignatureAlgorithm.HS512,env.getProperty("token.secret")).compact();
         res.addHeader("token",token);
         res.addHeader("UserId",userDetails.getUserId());
      }

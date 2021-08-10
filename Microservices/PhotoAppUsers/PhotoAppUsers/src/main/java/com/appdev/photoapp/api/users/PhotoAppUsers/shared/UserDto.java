@@ -2,7 +2,10 @@ package com.appdev.photoapp.api.users.PhotoAppUsers.shared;
 
 
 
+import com.appdev.photoapp.api.users.PhotoAppUsers.models.AlbumResponseModel;
+
 import java.io.Serializable;
+import java.util.List;
 
 public class UserDto implements Serializable {
     private static final long serialVersionUID=-953297098295050686L;
@@ -12,6 +15,15 @@ public class UserDto implements Serializable {
     private String email;
     private String userId;
     private String EncryptedPassword;
+    private List<AlbumResponseModel> albumsList;
+
+    public List<AlbumResponseModel> getAlbumsList() {
+        return albumsList;
+    }
+
+    public void setAlbumsList(List<AlbumResponseModel> albumsList) {
+        this.albumsList = albumsList;
+    }
 
     public String getFirstname() {
         return firstname;
